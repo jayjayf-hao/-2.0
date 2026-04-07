@@ -1,0 +1,10 @@
+^D:\SNAKE\SNAKEII\BUILD\CMAKEFILES\2E63335D51430785FADA2EA2123EA891\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/snake/snakeII -BD:/snake/snakeII/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/snake/snakeII/build/snakeII.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

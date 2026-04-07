@@ -1,0 +1,3 @@
+D:/snake/snakeII/build/CMakeFiles/snakeII.dir
+D:/snake/snakeII/build/CMakeFiles/ALL_BUILD.dir
+D:/snake/snakeII/build/CMakeFiles/ZERO_CHECK.dir
